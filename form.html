@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/nav.css">
+    <title>explore form</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio-video1.html">Audio-video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="semantic2.html">Semantic</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Shopping</a></li>
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Rent</a></li>
+                                <li><a href="#">Money</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">pinkey</a></li>
+                                        <li><a href="#">sonaPakhi</a></li>
+                                        <li><a href="#">Fulkoli</a></li>
+                                        <li><a href="#">MoynaPakhi</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Developer</a></li>
+                    </ul>
+                </li>
+                <li><a href="table3.html">Table</a></li>
+            </ul>
+        </nav>
+        <h1>I am exploring form</h1>
+    </header>
+    <main>
+        <h2>I create a form using input tag</h2>
+        <form action="">
+            <label for="fname">First Namae:</label>
+            <input type="text" name="fname" id="fname" placeholder="please type your first name" size="30">
+            <br>
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" placeholder="please type your last name" size="30" disabled>
+            <br><br>
+            <fieldset>
+                <legend>Please select one favorite language</legend>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Please select one favorite vehicle</legend>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label>
+            </fieldset>
+            <br><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

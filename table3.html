@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/nav.css">
+    <title>html table</title>
+    <style>
+        table {
+            width: 25%;
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            padding: 2px;
+        }
+
+        .another-table tr:nth-child(2n + 2) {
+            background-color: gray;
+        }
+
+        .another-table tr:nth-child(2n + 1):hover {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio-video1.html">Audio-video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="semantic2.html">Semantic</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Shopping</a></li>
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Rent</a></li>
+                                <li><a href="#">Money</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">pinkey</a></li>
+                                        <li><a href="#">sonaPakhi</a></li>
+                                        <li><a href="#">Fulkoli</a></li>
+                                        <li><a href="#">MoynaPakhi</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Developer</a></li>
+                    </ul>
+                </li>
+                <li><a href="table3.html">Table</a></li>
+            </ul>
+        </nav>
+        <h1>I am exploring html table</h1>
+    </header>
+    <table>
+        <caption><b>Monthly bill summary</b></caption>
+        <thead>
+            <tr>
+                <th>section</th>
+                <th colspan="3">Student</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Jamuna</td>
+                <td>Male</td>
+                <td>100</td>
+                <td rowspan="3">Total 300</td>
+            </tr>
+            <tr>
+                <td>Female</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Padma</td>
+                <td>male</td>
+                <td>110</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Sum = </td>
+                <td>$500</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <table>
+        <caption align="bottom"><b>img: 2 html table practice</b></caption>
+        <tbody>
+            <tr>
+                <td colspan="2" align="center">Bangladesh</td>
+                <td rowspan="5" align="center"><img
+                        src="https://4.bp.blogspot.com/-yNh_weRsqHQ/XLHwJyyK9dI/AAAAAAAATMo/nAjBAu07VrsTIdE3H278s1SWI6gwbe2MgCLcBGAs/s1600/Shapla_Water_Lily_nymphaea_nouchall_04.JPG"
+                        alt="" width="150px" height="120px"></td>
+            </tr>
+            <tr>
+                <td><u>ABC</u></td>
+                <td><i>ACD</i></td>
+            </tr>
+            <tr>
+                <td>H<sub>2</sub>S<sub>O</sub>4</td>
+                <td><del>Petni</del></td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <ul>
+                        <li>A</li>
+                        <li>B</li>
+                    </ul>
+                </td>
+                <td>&nbsp</td>
+            </tr>
+            <tr>
+                <td><a href="https/www.google.com">Google</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <table class="another-table">
+        <p><b>Studet result info</b></p>
+        <tbody>
+            <thead>
+                <tr>
+                    <th>NO.</th>
+                    <th>Full Name</th>
+                    <th>ID</th>
+                    <th>GPA</th>
+                </tr>
+            </thead>
+        <tbody>
+            <tr align="center">
+                <td>1</td>
+                <td>Mark Zukarburg</td>
+                <td>2022</td>
+                <td>5.00</td>
+            </tr>
+            <tr align="center">
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>1210</td>
+                <td>4.92</td>
+            </tr>
+            <tr align="center">
+                <td>3</td>
+                <td>Elon Mask</td>
+                <td>0120</td>
+                <td>3.50</td>
+            </tr>
+            <tr align="center">
+                <td>4</td>
+                <td>Bill Gates</td>
+                <td>0420</td>
+                <td>3.44</td>
+            </tr>
+        </tbody>
+        </tbody>
+    </table>
+    <p>A<sup>b<sup><del>petnii</del></sup></p>
+
+    <table>
+        <tr>
+            <th>Cable media</th>
+            <td>Fiber Optics</td>
+        </tr>
+        <tr height="100px">
+            <th valign="top">Wireless meida</th>
+            <td valign="bottom">Microwave</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2">Satelite wave</td>
+        </tr>
+    </table>
+    <p>Dhaka is the capital city of Bangladesh..</p>
+</body>
+
+</html>

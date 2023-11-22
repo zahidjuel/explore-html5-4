@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/nav.css">
+    <title>Explore html5</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="audio-video1.html">Audio-video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="semantic2.html">Semantic</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Shopping</a></li>
+                                <li><a href="#">Food</a></li>
+                                <li><a href="#">Rent</a></li>
+                                <li><a href="#">Money</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">pinkey</a></li>
+                                        <li><a href="#">sonaPakhi</a></li>
+                                        <li><a href="#">Fulkoli</a></li>
+                                        <li><a href="#">MoynaPakhi</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Developer</a></li>
+                    </ul>
+                </li>
+                <li><a href="table3.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>I am exploring html5</h1>
+    <!-- Multiple sources of audios are specified so that if the browser is unable to play the first source, then it will automatically jump to the second source and try to play it. -->
+    <audio controls autoplay loop muted>
+        <source src="media/alarm.wav" type="audio/wav">
+    </audio>
+    <audio controls autoplay loop muted>
+        <source src="media/we.mp3" type="audio/mp3">
+    </audio>
+    <br>
+    <video controls autoplay muted loop width="300px" height="250px">
+        <source src="media/seconds.mp4" type="video/mp4">
+    </video>
+    <br>
+    <iframe width="460" height="315"
+        src="https://www.youtube.com/embed/F3dt0KKjozg?autoplay=1&mute=1&playlist=tgbNymZ7vqY&loop=1"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</body>
+
+</html>
